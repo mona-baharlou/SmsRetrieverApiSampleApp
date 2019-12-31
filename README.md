@@ -1,4 +1,4 @@
-# SmsRetrieverApiSampleApp
+# SmsRetrieverApiSampleApp (Kotlin)
 
 A Sample Kotlin project for implementing SMS Retriver Api 
 
