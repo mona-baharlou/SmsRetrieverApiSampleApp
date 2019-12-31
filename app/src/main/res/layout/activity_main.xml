@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:text="Note:"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="01) Check Logcat For generated Hash Key e.g\n  HashKey: qEaApbQe17I\n\nShare hash key with your server and initiate a OTP request to your server and start SMS read listener through SMS Retriever API.  \n\n02)Your server will send SMS including OTP/Hash Key your app only able to read this SMS due to the hash key identity.
+
+        \n\n Note: If your server is not ready yet you can send the formatted message using any phone(send a formatted sms from other phones) and start listening from your app you can easily read it.
+
+        \n\nSMS Retriever API will do SMS reading for you."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
